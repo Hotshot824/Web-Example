@@ -1,0 +1,27 @@
+body {
+    background-color: wheat;
+}
+
+#title {
+    background-color: white;
+}
+
+#Second {
+    background-color: orange;
+}
+
+#menu {
+    background: #FFFFFF;
+}
+
+.bg-yellow{
+    background-color: #fd7e14 !important;
+}
+
+.menu_list {
+    width: 250px;
+    height: 250px;
+    float: left;
+    text-align: center;
+    background: #FFFFFF url(../images/menu_border.png) no-repeat center 2px;
+}

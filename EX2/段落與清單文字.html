@@ -1,141 +1,212 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="big5">
-<title>愛爾特西餐廳</title>
-<style>
-body{
-	background:url(images/background.jpg) repeat-x;
-	margin:0px;
-	padding:0px;
-}
-#container{
-	width: 1000px;
-	height: 949px;
-	margin: 0 auto;
-}
-#head img{
-	display:block;
-	float:left;
-}
-#head marquee{
-	width:600px;
-	float:right;
-	padding-top:50px;
-	font-family: "微軟正黑體";
-}
-#menu{
-	background:#FFFFFF;
-}
-.menu_list{
-	width:250px;
-	height:250px;
-	float:left;
-	text-align:center;
+	<meta charset="big5">
+	<title>愛爾特西餐廳</title>
+	<style>
+		body {
+			background: url(images/background.jpg) repeat-x;
+			margin: 0px;
+			padding: 0px;
+		}
 
-	background:#FFFFFF url(images/menu_border.png) no-repeat center 2px;
-}
-.menu_list_b{
-	width:249px;
-	border-right:#000000 dashed 1px;
-}
-.title{
-	width:250px;
-	
-}
-.clear{
-	clear:both;
-}
-#left{
-	width:120px;
-	background:#f0a919;
-	padding-top:10px;
-	float:left;
-}
+		#container {
+			width: 1000px;
+			height: 949px;
+			margin: 0 auto;
+		}
 
-#left h3{
-	margin:0px;
-	padding:5px;
-	display:block;
-	background:#ffe000;
-	font-family:"微軟正黑體";
-	font-weight:normal;
-}
-#right{
-	width:860px;
-	padding-left:20px;
-	float:left;
-	background:#FFFFFF;
-	border-top:4px #f0a919 solid;
-}
-#right img{
-	float: left;
-	margin-top: 10px;
-	margin-right: 15px;
-	margin-left: 0px;
-	margin-bottom: 5px;
-}
-#right p{
-	text-indent: 32px;
-	line-height: 1.5em;
-}
+		#head img {
+			display: block;
+			float: left;
+		}
 
-#footer{
-	text-align:center;
-	font-family:"微軟正黑體";
-	padding-top:5px;
-	font-size:14px;
-}
-</style>
+		#head marquee {
+			width: 600px;
+			float: right;
+			padding-top: 50px;
+			font-family: "微軟正黑體";
+		}
+
+		#menu {
+			background: #FFFFFF;
+		}
+
+		.menu_list {
+			width: 250px;
+			height: 250px;
+			float: left;
+			text-align: center;
+			background: #FFFFFF url(images/menu_border.png) no-repeat center 2px;
+		}
+
+		.menu_list_b {
+			width: 249px;
+			border-right: #000000 dashed 1px;
+		}
+
+		.title {
+			width: 250px;
+
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		#left {
+			width: 120px;
+			background: #f0a919;
+			padding-top: 10px;
+			float: left;
+		}
+
+		#left h3 {
+			margin: 0px;
+			padding: 5px;
+			display: block;
+			background: #ffe000;
+			font-family: "微軟正黑體";
+			font-weight: normal;
+		}
+
+		#right {
+			width: 875px;
+			padding-left: 20px;
+			float: left;
+			background: #FFFFFF;
+			border-top: 4px #f0a919 solid;
+		}
+
+		#right img {
+			float: left;
+			margin-top: 10px;
+			margin-right: 15px;
+			margin-left: 0px;
+			margin-bottom: 5px;
+		}
+
+		#right p {
+			text-indent: 32px;
+			line-height: 1.5em;
+		}
+
+		#footer {
+			text-align: center;
+			font-family: "微軟正黑體";
+			padding-top: 5px;
+			font-size: 14px;
+		}
+
+		ul li {
+			font-size: 1rem;
+		}
+	</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
-<div id="container">
-	<div id="head">
-    	<img src="images/logo.png"/>
-        <div class="clear"></div>
-    </div>
-	<table width="1000" border="0" cellpadding="0" cellspacing="0">
-	  <tr>
-	    <td width="142" height="52" align="center" bgcolor="#FFC362" style="font-size: 18px; color: #FFFFFF; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;"">首頁</td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="font-family: '微軟正黑體'; font-size: 18px; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">套餐</td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="color: #FFFFFF; font-size: 18px; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;">排餐<span style="font-size: 18px"></span></td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="font-family: '微軟正黑體'; font-size: 18px; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">義大利麵</td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="font-size: 18px; color: #FFFFFF; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;">小吃</td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="font-size: 18px; font-family: '微軟正黑體'; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">飲料</td>
-	    <td width="142" align="center" bgcolor="#FFC362" style="font-size: 18px; font-family: '微軟正黑體'; color: #FFFFFF;">酒類</td>
-      </tr>
-  </table>
-	<div id="menu">
-   	  <div class="menu_list menu_list_b" >
-   	    <h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;">法式意大利麵</h3>
-   	    <h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;">NT380</h4>
-      </div>
-   	  <div class="menu_list menu_list_b" >
-   	    <h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;">法式意大利麵</h3>
-   	    <h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;">NT380</h4>
-      </div>
-   	  <div class="menu_list menu_list_b" >
-   	    <h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;">美國牛小排</h3>
-   	    <h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;">NT870</h4>
-      </div>
-   	  <div class="menu_list menu_list_b" >
-   	    <h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;">經典套餐</h3>
-   	    <h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;">NT1530</h4>
-      </div>
+	<div id="container">
+		<div id="head">
+			<img src="images/logo.png" />
+			<div class="clear"></div>
+		</div>
+		<table width="1000" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="142" height="52" align="center" bgcolor="#FFC362"
+					style="font-size: 18px; color: #FFFFFF; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;">首頁
+				</td>
+				<td width=" 142" align="center" bgcolor="#FFC362"
+					style="font-family: '微軟正黑體'; font-size: 18px; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">套餐
+				</td>
+				<td width="142" align="center" bgcolor="#FFC362"
+					style="color: #FFFFFF; font-size: 18px; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;">
+					排餐<span style="font-size: 18px"></span></td>
+				<td width="142" align="center" bgcolor="#FFC362"
+					style="font-family: '微軟正黑體'; font-size: 18px; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">
+					義大利麵</td>
+				<td width="142" align="center" bgcolor="#FFC362"
+					style="font-size: 18px; color: #FFFFFF; font-family: '微軟正黑體'; border-right: 1px dashed #FFFFFF;">小吃
+				</td>
+				<td width="142" align="center" bgcolor="#FFC362"
+					style="font-size: 18px; font-family: '微軟正黑體'; color: #FFFFFF; border-right: 1px dashed #FFFFFF;">飲料
+				</td>
+				<td width="142" align="center" bgcolor="#FFC362"
+					style="font-size: 18px; font-family: '微軟正黑體'; color: #FFFFFF;">酒類</td>
+			</tr>
+		</table>
+		<div id="menu">
+			<div class="menu_list menu_list_b">
+				<h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;" class="h5 pt-4">法式意大利麵
+				</h3>
+				<h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;"
+					class="h6 font-weight-bold">NT400
+				</h4>
+				<img src="images/menu_01.png" alt="" />
+			</div>
+			<div class="menu_list menu_list_b">
+				<h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;" class="h5 pt-4">法式意大利麵
+				</h3>
+				<h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;"
+					class="h6 font-weight-bold">NT380
+				</h4>
+				<img src="images/menu_02.png" class="img-fluid" alt="" />
+			</div>
+			<div class="menu_list menu_list_b">
+				<h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;" class="h5 pt-4">美國牛小排
+				</h3>
+				<h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;"
+					class="h6 font-weight-bold">NT870
+				</h4>
+				<img src="images/menu_03.png" class="img-fluid" alt="" />
+			</div>
+			<div class="menu_list menu_list_b">
+				<h3 style="font-family: '微軟正黑體'; margin-bottom: 5px; font-weight: normal;" class="h5 pt-4">經典套餐
+				</h3>
+				<h4 style="color: #F30004; margin-top: 5px; margin-bottom: 35px; font-style: normal;"
+					class="h6 font-weight-bold">NT1530
+				</h4>
+				<img src="images/menu_04.png" class="img-fluid" alt="" />
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		<div id="content">
+			<div id="left">
+				<h3 class="h5">精選菜單</h3>
+				<ul class="list-group">
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">牛排</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">豬排</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">雞排</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">pizza</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">義大利麵</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">特色小吃</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">湯</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">飲料</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">沙拉</li>
+					<li class="list-group-item list-group-item-action list-group-item-warning py-1">鮮蔬</li>
+				</ul>
+			</div>
+			<div id="right">
+				<h2 style="color: #F30004; font-family: '微軟正黑體';" class="h4 pt-3 font-weight-bold">特色烤雞腿</h2>
+				<img src="images/food.jpg" alt="" class="rounded float-left" />
+				<p class="font-italic font-weight-bold">
+					<u>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</u>
+				</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Quod harum quia autem eius adipisci quo consequatur.
+					Amet vel nisi eum quis, velit suscipit commodi. Debitis expedita sed omnis sequi nisi.</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					Quod harum quia autem eius adipisci quo consequatur.
+					Amet vel nisi eum quis, velit suscipit commodi. Debitis expedita sed omnis sequi nisi.</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer"><span>關於special | 聯繫我們 |客服中心 |供應商自薦 | 網站地圖 |法律聲明</span> <span>&copy;Copyright 2016 special All
+				rights reserved</span></div>
 	</div>
-    
-<div class="clear"></div>
-<div id="content">
-    <div id="left">
-   	  <h3>精選菜單</h3>
-     </div>
-    <div id="right">
-      <h2 style="color: #F30004; font-family: '微軟正黑體';">特色烤雞腿</h2>
-    </div>
-</div>
-<div class="clear"></div>
-<div id="footer"><span>關於special | 聯繫我們 |客服中心 |供應商自薦 | 網站地圖 |法律聲明</span>                                <span>&copy;Copyright 2016 special  All rights reserved</span></div>
-    </div>
 </body>
+
 </html>
