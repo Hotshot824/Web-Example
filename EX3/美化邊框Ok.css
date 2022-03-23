@@ -1,0 +1,125 @@
+@charset "big5";
+/* CSS Document */
+
+header{
+	background:#FFFFFF;
+}
+.cle{
+	clear:both;
+}
+#content{
+	padding:10px;
+	background:#FFFFFF;
+}
+#left{
+	width:300px;
+	float:left;
+}
+
+.left_block p a{
+	text-decoration:none;
+	color:#49B000;
+}
+.left_block h3{
+	padding:10px 0px 10px 30px;
+	background:#B2E300 url(images/icon.gif) no-repeat 5px center;
+}
+#number{
+	font-size:35px;
+	font-family:arial;
+	color:#85C800;
+	padding:20px 5px;
+}
+#right{
+	float: left;
+	margin-left: 3px;
+	padding-left: 3px;
+	border-left: 1px dashed #D1D1D1;
+}
+#introduction{
+	width:478px;
+	border:1px #ededed solid;
+}
+#big{
+	width:200px;
+	text-align:center;
+	padding:168px 5px 5px 5px;
+	float:left;
+	background:url(images/photo_01.jpg) no-repeat 10px 10px ;
+}
+.small{
+	float:left;
+	width:230px;
+	padding:10px 0px 0px 10px;
+}
+.small img{
+	float:left;
+	width:95px;
+	margin-right:10px;
+}
+footer{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.small h5{
+	padding-top:10px;
+}
+header nav ul {
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #85C800;
+	border-top: 2px solid #DDDDDD;
+	border-bottom: 2px solid #dddddd;
+}
+nav ul li {
+	display: block;
+	width: 114px;
+	height: 30px;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	list-style-type: none;
+	color: #FFFFFF;
+	font-family: "微軟正黑體";
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "微軟正黑體";
+	margin: 0px;
+	font-weight: normal;
+}
+#left .left_block p {
+	line-height: 1.3em;
+	text-indent: 2em;
+	text-align: justify;
+	margin-top: 5px;
+}
+.small h4 em {
+	color: #FF0000;
+	font-size: small;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li a:hover {
+	font-size: large;
+	text-decoration: underline;
+	color: #D8FF00;
+}
+.left_block {
+	border: 1px solid #EDEDED;
+}
+#right #introduction h3 {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	background-color: #FFD70A;
+}
