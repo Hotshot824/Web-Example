@@ -7,6 +7,31 @@ header{
 .cle{
 	clear:both;
 }
+
+body {
+	margin: 0px;
+	padding: 0px;
+  }
+
+  #container_out {
+	width: 1024px;
+	margin: 0px auto;
+	background: url(images/container_background.jpg) no-repeat;
+	height: 1000px;
+  }
+
+  #container_in {
+	width: 808px;
+	margin: 0px auto;
+	background: #FFFFFF;
+	padding-bottom: 20px;
+  }
+
+  .navbar-custom {
+	background-color: #85C800;
+	font-weight: 700;
+  }
+
 #content{
 	padding:10px;
 	background:#FFFFFF;
@@ -20,15 +45,15 @@ header{
 	text-decoration:none;
 	color:#49B000;
 }
-.left_block h3{
+.left_block h5{
 	padding:10px 0px 10px 30px;
 	background:#B2E300 url(images/icon.gif) no-repeat 5px center;
 }
 #number{
-	font-size:35px;
+	font-size:1.60rem;
 	font-family:arial;
 	color:#85C800;
-	padding:20px 5px;
+	padding:15px 5px;
 }
 #right{
 	float:left;
