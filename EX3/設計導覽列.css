@@ -32,6 +32,11 @@ body {
 	font-weight: 700;
   }
 
+  .navbar-custom-text {
+	color: #001aff;
+	font-weight: 700;
+}
+
 #content{
 	padding:10px;
 	background:#FFFFFF;
