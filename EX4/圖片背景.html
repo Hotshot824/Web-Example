@@ -2,12 +2,13 @@
 <html>
 <head>
 <meta charset="big5">
-<title>阿Y水果</title>
+<title>阿Y水果 - Test</title>
 <style type="text/css">
 body{
 	margin:0px;
 	padding-top:20px;
 	font-family:"微軟正黑體";
+	background-color: #939393;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight:normal;
@@ -17,6 +18,7 @@ h1,h2,h3,h4,h5,h6{
 	width:900px;
 	height:768px;
 	margin:0px auto;
+	background:url(images/background_x.jpg) repeat-x;
 }
 #content{
 	width:900px;
@@ -52,6 +54,8 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 14px;
 	margin-bottom: 3px;
 	color:#FFFFFF;
+	background-image:url(images/tel.jpg);
+	background-repeat:no-repeat;
 }
 .cle{
 	clear:both;
@@ -67,6 +71,13 @@ h1,h2,h3,h4,h5,h6{
 	float:left;
 	margin:0px 8px;
 	color:#FFFFFF;
+	text-align: center;
+}
+.pro img {
+	width: 180px;
+	border: #FFFFFF 5px solid;
+	border-radius: 90px;
+	margin-top: -20px;
 }
 .title_indent{
 	padding-left:8px;
@@ -90,6 +101,25 @@ h1,h2,h3,h4,h5,h6{
 }
 .color_04{
 	background:#24b1c5;
+}
+#header ul li a:hover{
+	background-color:#ff7800;
+	background-image:url(images/icon.png);
+	background-repeat:no-repeat;
+	background-size:6px auto;
+	background-position:5px center;
+	font-weight: 600;
+	color: white;
+}
+.circle {
+	width: 40px;
+	height: 30px;
+	padding-top: 10px;
+	background-color: red;
+	color: white;
+	border: 3px solid white;
+	border-radius: 23px;
+	margin: 5px 0px 0px 15px;
 }
 </style>
 </head>
@@ -115,24 +145,28 @@ h1,h2,h3,h4,h5,h6{
         </div>
         <div id="products">
         	<div class="pro color_01">
+				<div class="circle">Hot</div>
             	<img src="images/product_01.jpg">
             	<h4>【每日鮮】鮮凍山竹10件組</h4>
            	  	<h5 class="title_indent">採急速冷凍技術，保留鮮味營養</h5>
                 <h4 class="title_indent">促銷價:$1,950</h4>
        	 	 </div>
             <div class="pro color_02">
+				<div class="circle">Hot</div>
             	<img src="images/product_02.jpg">
             	<h4>【CC之家】台灣葡萄柚2箱</h4>
            	  	<h5 class="title_indent">味甜清新，帶有甘味</h5>
                 <h4 class="title_indent">促銷價:$1,230</h4>
        	 	 </div>
           <div class="pro color_03">
+				  <div class="circle">Hot</div>
             	<img src="images/product_03.jpg">
             	<h4>【每日鮮】屏東無籽檸檬</h4>
            	  	<h5 class="title_indent">香氣濃郁.口感更多層</h5>
                 <h4 class="title_indent">促銷價:$2,350</h4>
        	 	 </div>
           <div class="pro color_04">
+			  	<div class="circle">Hot</div>
             	<img src="images/product_04.jpg">
             	<h4>【進口】華盛頓空運甜櫻桃</h4>
            	  	<h5 class="title_indent">絕對不能錯過的迷人風味</h5>
